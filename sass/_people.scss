@@ -1,0 +1,61 @@
+
+
+
+.people-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.people-item {
+  width: 270px;
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.section-people {
+  background-color: var(--additional-background-color);
+}
+.section-people-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.section-people-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.people {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.people-soc-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.people-soc-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--soc-link-color);
+  transition: color var(--time-function), background-color var(--time-function);
+}
+.people-soc-link:hover,
+.people-soc-link:focus {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
+}
+.people-soc-icon {
+  fill: currentColor;
+}

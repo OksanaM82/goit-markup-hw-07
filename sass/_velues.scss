@@ -1,0 +1,33 @@
+.values-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.values-item {
+  width: 270px;
+}
+.values-fon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .values-icon {
+
+} */
+.section-title-values {
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--title-text-color);
+  font-size: 14px;
+  display: flex;
+}
+
+.section-text-values {
+  line-height: 1.7;
+}

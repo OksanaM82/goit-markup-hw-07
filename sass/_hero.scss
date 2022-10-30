@@ -1,0 +1,55 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.hero {
+  background-color: var(--accent-background-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/fon.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-title {
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--hero-text-color);
+  background-color: var(--button-hero-background-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  min-width: 216px;
+  border: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color var(--time-function);
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  background-color: var(--button-hero-focus-color);
+  color: var(--hero-text-color);
+}
