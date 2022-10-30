@@ -16,8 +16,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-.hero-title {
+  .hero-title {
   color: var(--hero-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -29,6 +28,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+}
+
 
 .hero-button {
   font-family: inherit;
@@ -46,10 +47,10 @@
   margin-left: auto;
   margin-right: auto;
   transition: background-color var(--time-function);
-}
-
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+  
+.hero &:hover,
+.hero &:focus {
   background-color: var(--button-hero-focus-color);
   color: var(--hero-text-color);
+}
 }

@@ -8,6 +8,11 @@
   justify-content: center;
   color: var(--clients-border);
   transition: color var(--time-function), border-color var(--time-function);
+&:hover,
+&:focus {
+  border-color: var(--accent-text-color);
+  color: var(--accent-text-color);
+}
 }
 
 .clients-list {
@@ -19,8 +24,4 @@
   fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--accent-text-color);
-  color: var(--accent-text-color);
-}
+
